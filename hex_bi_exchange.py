@@ -41,6 +41,7 @@ def show_keyboard_code():
 	for line in range(0,16):
 		if line%4==0:
 			print
+			print
 		print "  "+str(hex(int(bi_code[line],2))),
 	print
 	print
